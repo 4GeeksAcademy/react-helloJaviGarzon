@@ -4,22 +4,18 @@ import Jumbotron from "../component/jumbotron.jsx";
 import Card from "../component/card.jsx";
 import Footer from "../component/footer.jsx";
 
-
+//Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap"
 
 
 const Home = () => {
 	return (
 		<>
 		<div><Navbar /></div>
-			<div><Footer /></div>
 			<div><Jumbotron /></div>
-			<div className="row"></div>
-			<div className="col-3"></div>
-			<div className="col-3"></div>
-			<div className="col-3"></div>
-			<div className="col-3"></div>
 			<div><Card /></div>
-			
+			<div><Footer /></div>
 		</>
 	);
 };
